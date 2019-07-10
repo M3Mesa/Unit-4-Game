@@ -1,0 +1,56 @@
+/* general */
+  
+body {
+    font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+    color: #801212;
+  }
+   
+  /* header */
+  
+  .jumbotron {
+    font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    padding: 8px;
+    color: #801212;
+    text-align: center;
+    border: 4px solid #801212;
+  }
+  
+  /* main */
+
+  .row {
+    float: left;
+    width: 100%; 
+    padding: 8px;
+    background: whitesmoke;
+    border: 4px solid #dbdbdb;
+  }
+
+  .col-md-3,
+  .col-md-6,
+  .col-md-12 {
+    width: 100%; 
+    padding: 8px;
+    background: whitesmoke;
+    border: 1px solid #801212;
+  } 
+  .crystal-gems {
+    width: 90%; 
+    margin-left: 100px;
+    background: whitesmoke;
+  } 
+
+  #clickDiamond,
+  #clickEsmerald,
+  #clickRuby,
+  #clickCitrine {
+    float: left;
+    width: 20%; 
+    background: whitesmoke;
+  } 
+
+  #randomButton {
+    color: whitesmoke;
+    background:#801212;
+  }
